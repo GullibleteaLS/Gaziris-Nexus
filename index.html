@@ -1,0 +1,140 @@
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gaziris Nexus: un proyecto experimental de interacción mediante la mirada, sus avances y sus próximos pasos.">
+  <title>Gaziris Nexus · Una mirada para participar</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenido">Ir al contenido</a>
+<header class="topbar">
+  <a class="brand" href="#portada">Gaziris <strong>Nexus</strong></a>
+  <span class="header-note">Un proyecto, muchas posibilidades</span>
+  <details class="index">
+    <summary>Índice <span aria-hidden="true">☰</span></summary>
+    <nav aria-label="Índice del proyecto">
+      <a href="#portada">Portada</a>
+      <a href="#necesidad">1. Una dificultad</a>
+      <a href="#recorrido">2. De una idea a un prototipo</a>
+      <a href="#actualidad">3. Qué funciona hoy</a>
+      <a href="#juego">4. Del puntero a un juego</a>
+      <a href="#dibujo">5. Dibujar y aprender</a>
+      <a href="#usuarios">6. Escuelas y familias</a>
+      <a href="#sostenibilidad">7. Cómo podría sostenerse</a>
+      <a href="#futuro">8. Los próximos pasos</a>
+    </nav>
+  </details>
+</header>
+<main id="contenido">
+<!-- Textos editables: cada section es una pagina del recorrido. -->
+<section class="page cover" id="portada" aria-labelledby="titulo-portada">
+  <div class="page-top"><span class="eyebrow">Proyecto de seguimiento ocular</span><span class="folio" aria-hidden="true">00 / 08</span></div>
+  <div class="cover-grid">
+    <div>
+      <p class="project-name">Gaziris Nexus</p>
+      <h1 id="titulo-portada" tabindex="-1">Una mirada para <span>participar, crear y aprender.</span></h1>
+      <p class="intro">Un proyecto que busca transformar el movimiento de los ojos en una forma de interactuar con actividades digitales.</p>
+      <p class="badge">Prototipo experimental en etapa de pruebas.</p>
+    </div>
+    <aside class="cover-art" aria-label="Símbolo de Gaziris Nexus">
+  <img src="assets/images/logo.png"
+     alt="Símbolo de Gaziris Nexus: un triángulo central que une formas geométricas, un círculo amarillo y trazos en movimiento"
+     style="display:block;width:100%;max-width:220px;aspect-ratio:1/1;height:auto;margin:0 auto;border-radius:50%;object-fit:contain;padding:12%;background:#FFFFFF;border:2px solid #17365D;box-shadow:5px 5px 0 #17365D">
+    </aside>
+  </div>
+  <div class="cover-footer"><p><strong>Autor:</strong>JSL<br><strong>Institución:</strong> EESTN3</p><p class="reading-hint">Deslizá o usá las flechas<br>para conocer el proyecto <span aria-hidden="true">→</span></p></div>
+</section>
+<section class="page" id="necesidad" aria-labelledby="titulo-necesidad">
+  <div class="page-top"><span class="eyebrow">El punto de partida</span><span class="folio" aria-hidden="true">01 / 08</span></div>
+  <h2 id="titulo-necesidad" tabindex="-1">Una dificultad que queremos ayudar a resolver</h2>
+  <p class="intro">Usar un mouse, presionar teclas o sostener un lápiz puede resultar difícil para algunos niños con discapacidad neuromotora.</p>
+  <div class="split"><ul class="ideas"><li>Las herramientas habituales pueden convertirse en una barrera para participar.</li><li>Gaziris Nexus explora la mirada como otra forma de interacción.</li><li>Busca complementar el acompañamiento de docentes y familiares.</li></ul><blockquote>¿Qué pasaría si pudiera participar utilizando su mirada?<span aria-hidden="true">↗</span></blockquote></div>
+  <p class="note">La necesidad llegó mediante un proyecto académico vinculado con una escuela de educación especial. No surgió de un relevamiento directo realizado por el desarrollador.</p>
+</section>
+<section class="page" id="recorrido" aria-labelledby="titulo-recorrido">
+  <div class="page-top"><span class="eyebrow">El recorrido</span><span class="folio" aria-hidden="true">02 / 08</span></div>
+  <h2 id="titulo-recorrido" tabindex="-1">De una idea a un prototipo</h2>
+  <p class="intro">Desde mayo de 2026, el proyecto avanzó mediante aprendizaje, investigación y pruebas.</p>
+  <div class="split"><ol class="steps"><li>Aprender a trabajar con programas e imágenes de cámara.</li><li>Detectar los ojos.</li><li>Seguir el movimiento del iris.</li><li>Ajustar el seguimiento a cada persona.</li><li>Reducir los saltos del puntero.</li></ol><figure class="visual">
+  <img src="assets/images/propuesta-actual.png"
+       alt="Boceto del juego: una serpiente con cola de colores se acerca a una fruta dentro de un cuadrado"
+       loading="lazy"
+       style="display:block;width:100%;height:auto">
+  <figcaption><strong>Diseño propuesto. Todavía no implementado.</strong><br>Una actividad para demostrar el control mediante la mirada.</figcaption>
+  </figure>
+  <p class="badge">Desarrollo individual · Más de 150 horas de dedicación identificadas</p><p class="note">Aproximadamente cinco meses de trabajo con equipamiento disponible, sin compras informáticas específicas para el proyecto.</p>
+</section>
+<section class="page" id="actualidad" aria-labelledby="titulo-actualidad">
+  <div class="page-top"><span class="eyebrow">El presente · Prototipo</span><span class="folio" aria-hidden="true">03 / 08</span></div>
+  <h2 id="titulo-actualidad" tabindex="-1">Qué funciona hoy</h2>
+  <p class="intro">El prototipo mueve un punto dentro de una ventana siguiendo la mirada.</p>
+  <ol class="three-steps"><li><strong>Observar</strong>La cámara observa los ojos e identifica sus referencias.</li><li><strong>Preparar</strong>La persona mira al centro, izquierda, derecha, arriba y abajo.</li><li><strong>Seguir</strong>El punto se mueve dentro de la ventana según su mirada.</li></ol>
+  <figure class="visual wide">
+  <video controls playsinline preload="metadata"
+         aria-label="Demostración real del seguimiento ocular"
+         style="display:block;width:100%;height:auto">
+    <source src="assets/media/muestra.mp4" type="video/mp4">
+    Tu navegador no puede reproducir este video.
+  </video>
+  <figcaption>Demostración real: el punto sigue la mirada dentro de una ventana. El seguimiento actual no controla todo el sistema operativo.</figcaption>
+  </figure>
+  <p class="note">La estabilidad todavía necesita mejoras. El resultado depende de las condiciones de captura y de la posición de la persona.</p><p class="note">Docentes de informática han aportado observaciones. Todavía no hay resultados de evaluación educativa ni pruebas documentadas con los destinatarios finales.</p>
+</section>
+<section class="page" id="juego" aria-labelledby="titulo-juego">
+  <div class="page-top"><span class="eyebrow">Primera aplicación propuesta</span><span class="folio" aria-hidden="true">04 / 08</span></div>
+  <h2 id="titulo-juego" tabindex="-1">Del puntero a un juego</h2>
+  <p class="intro">La primera aplicación propuesta utilizaría el movimiento de la mirada para recoger frutas.</p>
+  <div class="split"><div><ul class="ideas"><li>El puntero sería la cabeza de una serpiente con cola de colores.</li><li>Al entrar en el cuadrado grande de una fruta, la recogería y sumaría un punto.</li><li>Aparecería otra fruta en un lugar diferente para continuar.</li></ul><p>La actividad seguiría hasta cerrar el programa, sin perder por choques ni por tiempo.</p></div>
+    <figure class="visual">
+  <img src="assets/images/programa-funcionamiento.png"
+       alt="cámara captando los ojos, la pantalla de calibración y el puntero en funcionamiento"
+       loading="lazy"
+       style="display:block;width:100%;height:auto">
+  <figcaption>Calibracion actual</figcaption>
+    </figure>
+    </div>
+  <p class="callout">El motor es la base; el juego mostraría una de sus posibles aplicaciones.</p>
+</section>
+<section class="page" id="dibujo" aria-labelledby="titulo-dibujo">
+  <div class="page-top"><span class="eyebrow">Una posibilidad a futuro</span><span class="folio" aria-hidden="true">05 / 08</span></div>
+  <h2 id="titulo-dibujo" tabindex="-1">Dibujar y aprender con la mirada</h2>
+  <p class="intro">Una herramienta de dibujo podría ofrecer otra forma de expresión a quien tiene dificultades para sostener un lápiz.</p>
+  <div class="split"><div><ul class="ideas"><li>Dibujar mediante el movimiento de los ojos.</li><li>Explorar formas y objetos con plantillas.</li><li>Incorporar nuevas actividades educativas en etapas posteriores.</li></ul><p class="note">Podría incluir colores, grosor del trazo y deshacer. La forma de activar estos controles todavía no está definida ni implementada.</p></div>
+    <figure class="visual">
+  <img src="assets/images/idea-futura.jpg"
+       alt="Boceto de la herramienta de dibujo controlada con la mirada"
+       loading="lazy"
+       style="display:block;width:100%;height:auto">
+  <figcaption><strong>Propuesta futura · No implementada.</strong><br>Otra forma posible de dibujar y expresarse.</figcaption>
+    </figure>
+  </div>
+  <p class="callout">Su utilidad deberá evaluarse junto con usuarios, docentes y familiares.</p><p class="note">A más largo plazo se contemplan reconocimiento de objetos, lectura, operaciones básicas e idiomas. Son objetivos por evaluar.</p>
+</section>
+<section class="page" id="usuarios" aria-labelledby="titulo-usuarios">
+  <div class="page-top"><span class="eyebrow">La propuesta de acceso</span><span class="folio" aria-hidden="true">06 / 08</span></div>
+  <h2 id="titulo-usuarios" tabindex="-1">Dos formas de acercarlo a sus usuarios</h2>
+  <p class="intro">La propuesta contempla aplicaciones descargables mediante suscripciones para escuelas y familias.</p>
+  <div class="cards"><article class="card"><span class="card-number" aria-hidden="true">01</span><h3>Escuelas</h3><p>Pago mensual con alternativa anual.</p><p>Licencia inicial propuesta para hasta cinco computadoras.</p><p class="note">Posibles diferencias según las aplicaciones, la configuración y el soporte incluidos.</p></article><article class="card"><span class="card-number" aria-hidden="true">02</span><h3>Familias</h3><p>Pago mensual y selección de actividades para el hogar.</p><p>Un alcance y un precio diferentes del institucional, todavía sin definir.</p></article></div>
+  <p class="callout">Planes, catálogo y precios pendientes de definir. Alcance inicial propuesto: Argentina.</p><p class="note">Las descargas se realizarían desde una futura plataforma y los cobros serían en pesos argentinos. Esta página es informativa: no ofrece compras, licencias ni descargas comerciales.</p>
+</section>
+<section class="page" id="sostenibilidad" aria-labelledby="titulo-sostenibilidad">
+  <div class="page-top"><span class="eyebrow">El trabajo detrás del proyecto</span><span class="folio" aria-hidden="true">07 / 08</span></div>
+  <h2 id="titulo-sostenibilidad" tabindex="-1">Cómo podría sostenerse</h2>
+  <p class="intro">Las suscripciones deberían cubrir los gastos y el trabajo necesario para mantener y mejorar las aplicaciones.</p>
+  <div class="cost-grid"><article class="card"><h3>Inversión inicial</h3><p>Investigación, diseño, desarrollo y pruebas.</p></article><article class="card"><h3>Operación</h3><p>Plataforma, dominio, alojamiento, distribución y servicios de cobro.</p></article><article class="card"><h3>Trabajo recurrente</h3><p>Mantenimiento, actualizaciones y atención a usuarios.</p></article><article class="card"><h3>Costos indirectos</h3><p>Electricidad y desgaste del equipo, uso de internet, aún sin cuantificar.</p></article></div>
+  <p>La propuesta busca remunerar el trabajo y recuperar gradualmente la inversión inicial.</p><p class="callout">La rentabilidad dependerá de los costos reales, la cantidad de suscriptores y la utilidad del producto para sus destinatarios.</p>
+</section>
+<section class="page" id="futuro" aria-labelledby="titulo-futuro">
+  <div class="page-top"><span class="eyebrow">El camino que sigue</span><span class="folio" aria-hidden="true">08 / 08</span></div>
+  <h2 id="titulo-futuro" tabindex="-1">Los próximos pasos</h2>
+  <p class="intro">El desafío es convertir el seguimiento de la mirada en experiencias útiles para participar, crear y aprender.</p>
+  <div class="split"><ol class="steps"><li>Mejorar la estabilidad del motor.</li><li>Integrar una primera actividad.</li><li>Recoger opiniones y evaluar su facilidad de uso.</li><li>Ampliar las herramientas según los resultados.</li><li>Preparar una versión distribuible.</li></ol><aside class="closing"><span class="eyebrow">Gaziris Nexus</span><p>Una mirada.<br>Un comienzo.<br><strong>Muchas posibilidades.</strong></p><span class="badge">En desarrollo</span></aside></div>
+  <footer class="credits"><p><strong>Documentación</strong><br>Informe técnico: próximamente</p><p><strong>Autor:</strong>JSL<br><strong>Institución:</strong> EESTN3</p></footer>
+</section>
+</main>
+<nav class="pager" aria-label="Navegación entre páginas" hidden><button class="previous" type="button" aria-label="Página anterior">← <span>Anterior</span></button><p class="page-status" role="status" aria-live="polite" aria-atomic="true">1 de 9</p><button class="next" type="button" aria-label="Página siguiente"><span>Siguiente</span> →</button></nav>
+<noscript><p class="noscript">Estás viendo la versión continua. Podés recorrerla desplazándote o usando el índice.</p></noscript>
+</body>
+</html>
