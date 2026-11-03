@@ -6,7 +6,7 @@
   <meta name="description" content="Gaziris Nexus: un motor de seguimiento ocular para que chicos con discapacidad neuromotora usen la computadora con la mirada. Prototipo, propuesta y modelo económico.">
   <title>Gaziris Nexus · Una mirada para participar</title>
   <link rel="stylesheet" href="css/styles.css">
-  <!-- Estilos mínimos para las tablas de la sección 7 (styles.css no las incluye). Usan las variables de :root. -->
+  <!-- Estilos mínimos para las tablas de las secciones 7 a 9 (styles.css no las incluye). Usan las variables de :root. -->
   <style>
     .table-wrap{overflow-x:auto;margin:26px 0;border:var(--line);border-radius:var(--radius);background:var(--paper)}
     .data-table{width:100%;border-collapse:collapse;font-size:16px;min-width:520px}
@@ -82,12 +82,12 @@
     <ul class="ideas">
       <li>La propuesta nació del director de la escuela de educación especial en conjunto con el docente: crear un programa de reconocimiento de movimiento ocular.</li>
       <li>La escuela cuenta con material básico y necesario, pero insuficiente para la enseñanza.</li>
-      <li>En Argentina hay <strong>1.918 escuelas de educación especial</strong>. Si solo el 1% adoptara el producto, serían <strong>19 escuelas</strong>.</li>
+      <li>En Argentina hay <strong>1.918 escuelas de educación especial</strong>, de todas las modalidades. Si solo el 1% adoptara el producto, serían <strong>19 escuelas</strong>.</li>
     </ul>
     <blockquote>¿Qué pasaría si pudiera participar utilizando su mirada?<span aria-hidden="true">↗</span></blockquote>
   </div>
   <p class="callout"><strong>La regla del proyecto:</strong> solo el movimiento de los ojos. Nada de cabeza ni de cuerpo, porque muchos de los chicos a los que está dirigido no pueden moverse por sí solos.</p>
-  <p class="note">Fuente: Bottinelli, L. (2024). <a href="https://www.aacademica.org/3.congreso.eh.unsam/588.pdf" target="_blank" rel="noopener"><em>La modalidad de educación especial en Argentina: características institucionales y evolución reciente de la oferta</em></a>. Ministerio de Educación de la Nación. No se encontraron datos públicos y actualizados sobre la cantidad de chicos con discapacidad neuromotora en el país.</p>
+  <p class="note">Fuente: Bottinelli, L. (2024). <a href="https://www.aacademica.org/3.congreso.eh.unsam/588.pdf" target="_blank" rel="noopener"><em>La modalidad de educación especial en Argentina: características institucionales y evolución reciente de la oferta</em></a>. III Congreso Internacional de Ciencias Humanas, Escuela de Humanidades, UNSAM. El dato proviene del Padrón Oficial de Establecimientos Educativos. No se encontraron datos públicos y actualizados sobre la cantidad de chicos con discapacidad neuromotora en el país.</p>
 </section>
 
 <!-- 02 · PROCESO Y APRENDIZAJES -->
@@ -108,7 +108,7 @@
       <figcaption>El programa en funcionamiento: cámara, calibración y puntero.</figcaption>
     </figure>
   </div>
-  <p class="badge">Desarrollo individual · Alrededor de 150 horas realizadas
+  <p class="badge">Desarrollo individual · 150 horas registradas en 5 meses</p>
   <p class="note">Como referencia se tomaron dos proyectos de código abierto desactualizados, cuya lógica se reestructuró para respetar la regla de usar solo los ojos.</p>
   <p class="note">Se usó inteligencia artificial de forma responsable: en la parte gráfica, como esta página, y como apoyo en pruebas y búsqueda de errores. Sus respuestas siempre se evaluaron y corrigieron.</p>
 </section>
@@ -129,7 +129,8 @@
     </video>
     <figcaption>Video real, sin edición: estructura del proyecto, ejecución, calibración y demo del juego.</figcaption>
   </figure>
-  <article class="card">
+  <div class="cards">
+    <article class="card">
       <h3>Tres librerías</h3>
       <div class="lib-row">
         <span>MediaPipe</span>
@@ -145,7 +146,7 @@
     </article>
   </div>
   <p class="callout">Funciona sin conexión a internet: las imágenes de la cámara nunca salen de la computadora.</p>
-  <p class="note">En las pruebas realizadas, incluidas personas que usan anteojos, el programa respondió según lo previsto. La idea es mantener sesiones cortas; su duración la definirían docentes y familiares.</p>
+  <p class="note">Las pruebas se hicieron en distintos entornos de iluminación y distancia, y con personas que usan lentes en todas ellas. La idea es mantener sesiones cortas; su duración la definirían docentes y familiares.</p>
 </section>
 
 <!-- 04 · DEL PUNTERO A UN JUEGO -->
@@ -197,101 +198,98 @@
 <section class="page" id="usuarios" aria-labelledby="titulo-usuarios">
   <div class="page-top"><span class="eyebrow">La propuesta de acceso</span><span class="folio" aria-hidden="true">06 / 10</span></div>
   <h2 id="titulo-usuarios" tabindex="-1">Escuelas y familias</h2>
-  <p class="intro">Aplicaciones descargables por suscripción, con una demo gratuita para probar antes de pagar.</p>
+  <p class="intro">Suscripción para escuelas, con una demo gratuita para probar antes de pagar. El alcance inicial es una herramienta y un juego, la serpiente.</p>
   <div class="cards">
     <article class="card"><span class="card-number" aria-hidden="true">01</span><h3>Escuelas</h3><p>Licencia para hasta cinco computadoras.</p><p>Pago mensual o anual.</p></article>
-    <article class="card"><span class="card-number" aria-hidden="true">02</span><h3>Familias</h3><p>Un plan para el hogar.</p><p>Con su propio alcance y precio.</p></article>
+    <article class="card"><span class="card-number" aria-hidden="true">02</span><h3>Familias</h3><p>Un plan para padres y tutores.</p><p>Proyección a futuro: no se incluye en los cálculos.</p></article>
   </div>
-  <div class="split">
-    <div>
-      <ul class="ideas">
-        <li><strong>Demo gratuita y limitada</strong> en la plataforma del proyecto: qué es, sus características y cómo descargarla.</li>
-        <li><strong>Suscripción</strong>, porque las aplicaciones requieren mantenimiento, soporte y actividades nuevas.</li>
-        <li>Con más aplicaciones, la difusión se ampliaría a redes sociales.</li>
-      </ul>
-    </div>
-    <figure class="visual">
-      <!-- IMAGEN PENDIENTE: maqueta (mockup) de la futura plataforma de descargas: página de la demo gratuita con su descripción, características y botón de descarga. Reemplazar el src de logo.png por el archivo real. -->
-      <img src="assets/images/logo.png" alt="Espacio reservado para la maqueta de la plataforma de descargas" loading="lazy">
-      <figcaption>Espacio para la maqueta de la plataforma de descargas.</figcaption>
-    </figure>
-  </div>
-  <p class="note">Alcance inicial: Argentina, con cobros en pesos. Esta página es referencial generado por IA: no ofrece compras, licencias ni descargas comerciales.</p>
+  <ul class="ideas">
+    <li><strong>Demo gratuita (freemium):</strong> limitada en contenido, con un solo juego. Permite evaluar la calidad y la funcionalidad antes de contratar un plan.</li>
+    <li><strong>Segmentación:</strong> primero escuelas de educación especial de la zona, luego de otras provincias y después familias. El criterio es quién decide la compra y dónde está.</li>
+    <li><strong>Promoción:</strong> redes sociales, presentación directa en escuelas cercanas, boca a boca y muestras en ONG.</li>
+    <li><strong>Recomendación:</strong> descuento de hasta 20% para la escuela que recomiende el producto a otra, de director a director. Se aplicaría con más productos en el catálogo y después de superar el punto de equilibrio.</li>
+    <li><strong>Suscripción</strong>, porque las aplicaciones requieren mantenimiento, soporte y actividades nuevas.</li>
+  </ul>
+  <p class="callout">Distribución digital y propia: el producto se vende directamente desde la página del proyecto, sin intermediarios.</p>
+  <p class="note">Alcance inicial: Argentina, con cobros en pesos.</p>
 </section>
 
 <!-- 07 · INVERSIÓN INICIAL -->
 <section class="page" id="inversion" aria-labelledby="titulo-inversion">
   <div class="page-top"><span class="eyebrow">Cómo podría sostenerse · 1 de 3</span><span class="folio" aria-hidden="true">07 / 10</span></div>
   <h2 id="titulo-inversion" tabindex="-1">Inversión inicial</h2>
-  <p class="intro">El desarrollo requirió una inversión de aproximadamente <strong>$1.560.000</strong>, casi toda en horas de trabajo.</p>
+  <p class="intro">La inversión valorada es de <strong>$1.558.988</strong>, casi toda en horas de trabajo propio. El costo directo fue de <strong>$58.988</strong>.</p>
   <div class="table-wrap">
     <table class="data-table">
       <thead><tr><th scope="col">Concepto</th><th scope="col">Cálculo</th><th scope="col" class="num">Monto</th></tr></thead>
       <tbody>
         <tr><td>Trabajo</td><td>150 h registradas × $10.000 por hora</td><td class="num">$1.500.000</td></tr>
-        <tr><td>Electricidad</td><td>65 W × 150 h ≈ 9,75 kWh × $150/kWh</td><td class="num">≈ $1.500</td></tr>
-        <tr><td>Internet</td><td>Parte proporcional del abono durante 5 meses</td><td class="num">≈ $7.400</td></tr>
-        <tr><td>Desgaste del equipo</td><td>3% del valor de la notebook (150 h sobre 5.000 h de vida útil)</td><td class="num">≈ $50.100</td></tr>
+        <tr><td>Electricidad</td><td>65 W × 150 h × $150 por kWh</td><td class="num">$1.463</td></tr>
+        <tr><td>Internet</td><td>$35.600 × 5 meses × 4,17%</td><td class="num">$7.417</td></tr>
+        <tr><td>Desgaste del equipo</td><td>$1.670.310 × 150 h ÷ 5.000 h de vida útil (3%)</td><td class="num">$50.109</td></tr>
         <tr><td>Hardware adquirido</td><td>Sin compras específicas para el proyecto</td><td class="num">$0</td></tr>
-        <tr class="total"><td>Total</td><td></td><td class="num">≈ $1.560.000</td></tr>
+        <tr class="total"><td>Total valorado</td><td></td><td class="num">$1.558.988</td></tr>
       </tbody>
-      <caption>Montos en pesos argentinos.</caption>
+      <caption>Montos en pesos argentinos. Costo directo: $58.988, de los cuales $8.880 fueron pagos en efectivo (electricidad e internet) y $50.109 corresponden al desgaste de la notebook.</caption>
     </table>
   </div>
-  <p class="callout">El valor de $10.000 por hora es el punto medio del rango de un programador junior en Argentina: entre $1.200.000 y $2.000.000 mensuales, sobre 160 horas.</p>
-  <p class="note">Fuente del rango salarial: Develop Argentina (junio de 2026). El consumo de 65 W y la vida útil de 5.000 horas son estimaciones del autor.</p>
+  <p class="callout">$10.000 por hora equivalen a $1.600.000 por mes (160 horas), unos USD 1.022 al dólar blue de $1.565. Es el piso del rango de un programador junior, por lo que la valoración es conservadora.</p>
+  <p class="note">Fuentes: rango salarial según Coderhouse y Teclab; cotización según 0223 (2 de noviembre de 2026, valor variable en el tiempo). El consumo de 65 W, la vida útil de 5.000 horas, la tarifa de $150 por kWh y el abono de $35.600 son estimaciones del autor.</p>
 </section>
 
 <!-- 08 · COSTOS Y PRECIOS -->
 <section class="page" id="costos" aria-labelledby="titulo-costos">
   <div class="page-top"><span class="eyebrow">Cómo podría sostenerse · 2 de 3</span><span class="folio" aria-hidden="true">08 / 10</span></div>
   <h2 id="titulo-costos" tabindex="-1">Costos mensuales y precios</h2>
-  <p class="intro">Mantener el producto costaría alrededor de <strong>$280.000 por mes</strong>.</p>
+  <p class="intro">Con 8 escuelas, mantener el producto cuesta unos <strong>$272.740 por mes</strong>: $72.740 de costos fijos y $200.000 de mantenimiento.</p>
   <div class="table-wrap">
     <table class="data-table">
       <thead><tr><th scope="col">Concepto</th><th scope="col">Detalle</th><th scope="col" class="num">Monto mensual</th></tr></thead>
       <tbody>
-        <tr><td>Mantenimiento</td><td>20 h × $10.000</td><td class="num">$200.000</td></tr>
-        <tr><td>Monotributo</td><td>Categoría A, servicios (ARCA)</td><td class="num">$49.527</td></tr>
-        <tr><td>Hosting</td><td>Proveedor local, plan tienda, migración sin cargo</td><td class="num">$27.000</td></tr>
-        <tr><td>Dominio .com.ar</td><td>Arancel anual ÷ 12</td><td class="num">≈ $700</td></tr>
-        <tr class="total"><td>Total</td><td></td><td class="num">≈ $280.000</td></tr>
+        <tr><td>Monotributo</td><td>Categoría A, prestación de servicios (fijo)</td><td class="num">$49.527</td></tr>
+        <tr><td>Hosting</td><td>InHosting, plan Empresas: $18.599 + 21% de IVA (fijo)</td><td class="num">$22.505</td></tr>
+        <tr><td>Dominio .com.ar</td><td>$8.500 por año ÷ 12 (fijo)</td><td class="num">$708</td></tr>
+        <tr><td>Mantenimiento</td><td>4 h de base + 2 h por escuela: 20 h × $10.000 con 8 escuelas (mixto)</td><td class="num">$200.000</td></tr>
+        <tr class="total"><td>Total con 8 escuelas</td><td></td><td class="num">$272.740</td></tr>
       </tbody>
-      <caption>Montos en pesos argentinos.</caption>
+      <caption>Montos en pesos argentinos. El plan Empresas permite escalar a nivel nacional desde el inicio, porque el público incluye a padres y tutores. La página del proveedor no aclara si el precio incluye IVA, por lo que se sumó el 21%.</caption>
     </table>
   </div>
   <div class="cards">
-    <article class="card"><span class="card-number" aria-hidden="true">Hipótesis</span><h3>Escuela · $40.000/mes</h3><p>Hasta cinco computadoras. Después de la comisión de cobro (≈ 2,9% + $50), quedan <strong>$38.790 netos</strong>.</p></article>
-    <article class="card"><span class="card-number" aria-hidden="true">Hipótesis</span><h3>Familia · $8.000/mes</h3><p>Plan para el hogar. No se incluye en los resultados: es ingreso adicional.</p></article>
+    <article class="card"><span class="card-number" aria-hidden="true">Hipótesis</span><h3>Escuela · $40.000/mes</h3><p>Hasta cinco computadoras. Con Mercado Pago Checkout a 18 días (3,56% + IVA = 4,31%), la comisión es de $1.723 y quedan <strong>$38.277 netos</strong>.</p><p>Por transferencia al CVU o alias no hay comisión.</p></article>
+    <article class="card"><span class="card-number" aria-hidden="true">Límite</span><h3>Mantenimiento · 23 h</h3><p>Con 8 escuelas, es el máximo de horas mensuales que el proyecto puede pagar sin pérdida.</p></article>
   </div>
-  <p class="note">Fuentes: escala de monotributo de ARCA vigente desde agosto de 2026; comisión de Mercado Pago para cuentas profesionales (2026). Los precios están pendientes de validar con escuelas reales, sujeto a inflación.</p>
+  <p class="note">Fuentes: escala de monotributo de ARCA (2026); planes de hosting de InHosting; tarifas de Mercado Pago Checkout. Los precios están pendientes de validar con escuelas reales y sujetos a inflación.</p>
 </section>
 
 <!-- 09 · RESULTADOS Y RIESGOS -->
 <section class="page" id="resultados" aria-labelledby="titulo-resultados">
   <div class="page-top"><span class="eyebrow">Cómo podría sostenerse · 3 de 3</span><span class="folio" aria-hidden="true">09 / 10</span></div>
   <h2 id="titulo-resultados" tabindex="-1">Resultados y riesgos</h2>
-  <p class="intro">Con <strong>8 escuelas</strong> el proyecto cubre sus costos; con <strong>19</strong>, el 1% del mercado, recupera la inversión en unos tres meses y medio.</p>
+  <p class="intro">Con <strong>8 escuelas</strong> el proyecto cubre sus costos; con <strong>19</strong>, el 1% de las escuelas especiales del país, recupera la inversión valorada en unos <strong>8,7 meses</strong>.</p>
   <div class="table-wrap">
     <table class="data-table">
       <thead><tr><th scope="col">Indicador</th><th scope="col">Escenario</th><th scope="col" class="num">Resultado</th></tr></thead>
       <tbody>
-        <tr><td>Punto de equilibrio</td><td>$280.000 ÷ $38.790 por escuela</td><td class="num">8 escuelas</td></tr>
-        <tr><td>Ganancia mensual</td><td>19 escuelas (1% del mercado)</td><td class="num">≈ $460.000</td></tr>
-        <tr><td>Recuperación de la inversión</td><td>$1.560.000 ÷ ganancia mensual</td><td class="num">≈ 3,4 meses</td></tr>
-        <tr><td>Facturación anual</td><td>19 escuelas · dentro del tope de la Categoría A</td><td class="num">≈ $9.120.000</td></tr>
+        <tr><td>Punto de equilibrio</td><td>$272.740 ÷ $38.277 por escuela</td><td class="num">8 escuelas</td></tr>
+        <tr><td>Ganancia con 8 escuelas</td><td>Mantenimiento de 20 h</td><td class="num">$33.475/mes</td></tr>
+         <tr><td>Ganancia con 19 escuelas</td><td>Mantenimiento escalado a 47,5 h (costo de $547.740)</td><td class="num">$179.522/mes</td></tr>
+        <tr><td>Recuperación de la inversión</td><td>$1.558.988 ÷ $179.522</td><td class="num">≈ 8,7 meses</td></tr>
+        <tr><td>Facturación anual</td><td>19 escuelas, dentro del tope de la Categoría A ($12.009.410)</td><td class="num">$9.120.000</td></tr>
         <tr class="total"><td>Precio a la mitad</td><td>$20.000 por escuela</td><td class="num">15 escuelas</td></tr>
       </tbody>
-      <caption>Incluso con el precio a la mitad, alcanza con menos del 1% de las escuelas especiales del país.</caption>
+      <caption>Con 7 escuelas faltan unos $4.800 por mes. La ganancia ya descuenta las horas de mantenimiento valoradas a $10.000, como si se pagara un sueldo.</caption>
     </table>
   </div>
   <div class="split">
     <ul class="ideas">
-      <li><strong>Precios sin validar:</strong> deben hacerse una consulta y estudio de mercado.</li>
-      <li><strong>Presupuesto limitado:</strong> hay que explorar quién paga: la escuela, la cooperadora o un programa público.</li>
-      <li><strong>Sin pruebas con usuarios:</strong> el producto debe demostrar su utilidad antes de venderse.</li>
+      <li><strong>Precio sin validar:</strong> los $40.000 por mes deben evaluarse con escuelas reales.</li>
+      <li><strong>Quién paga:</strong> muchas escuelas tienen presupuesto limitado; puede pagar la escuela, la cooperadora o un programa público.</li>
+      <li><strong>Uso real:</strong> el producto sigue en fase de pruebas y todavía no fue probado con los destinatarios finales.</li>
+      <li><strong>Horas de soporte:</strong> con 8 escuelas, más de 23 horas de mantenimiento por mes generan pérdida.</li>
+      <li><strong>Riesgo técnico:</strong> el resultado depende de la iluminación, la distancia a la cámara y el equipo.</li>
     </ul>
-    <p class="callout">El siguiente paso es validar el precio y la utilidad con escuelas reales.</p>
+    <p class="callout">El proyecto es viable en el escenario conservador, siempre que se valide el precio con escuelas reales.</p>
   </div>
 </section>
 
@@ -299,14 +297,15 @@
 <section class="page" id="futuro" aria-labelledby="titulo-futuro">
   <div class="page-top"><span class="eyebrow">El camino que sigue</span><span class="folio" aria-hidden="true">10 / 10</span></div>
   <h2 id="titulo-futuro" tabindex="-1">Los próximos pasos</h2>
-  <p class="intro">El desafío es convertir el seguimiento de la mirada en experiencias realmente útiles para participar, crear y aprender.</p>
+  <p class="intro">Después del alcance inicial, el objetivo es ampliar el catálogo y llegar a otros países e idiomas.</p>
   <div class="split">
     <ol class="steps">
-      <li>Mejorar la estabilidad del motor: es la base para hacer clic con la mirada y dibujar.</li>
-      <li>Integrar una primera actividad completa a partir de la demo.</li>
-      <li>Probarlo con usuarios reales, con autorización de familias, docentes y directivos.</li>
-      <li>Ampliar las herramientas: guardar la calibración de cada usuario y elegir el ojo dominante.</li>
-      <li>Preparar una versión distribuible con demo gratuita.</li>
+      <li>Mejorar la estabilidad del puntero, reduciendo el ruido.</li>
+      <li>Integrar la primera actividad completa a partir de la demo de la serpiente.</li>
+      <li>Probarlo con usuarios reales, con autorización de familias, docentes y directivos, para validar uso, duración de las sesiones y precio.</li>
+      <li>Lanzar el plan familiar para padres y tutores.</li>
+      <li>Sumar herramientas y juegos sobre el mismo motor.</li>
+      <li>Hacerlo accesible en otros países e idiomas, lo que requeriría sumar personal.</li>
     </ol>
     <aside class="closing"><span class="eyebrow">Gaziris Nexus</span><p>Una mirada.<br>Un comienzo.<br><strong>Muchas posibilidades.</strong></p><span class="badge">En desarrollo</span></aside>
   </div>
